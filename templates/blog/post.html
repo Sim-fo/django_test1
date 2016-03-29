@@ -5,6 +5,6 @@
     <h6> on {{ post.post_date }}</h6>
 
     {{ post.post_body|safe|linebreaks }}
-    img = {{ post.post_img }}
+    <img src="/blog/media/images/2.jpg" />
     <h5>Лайки {{ post.post_like }}</h5>
 {% endblock %}
